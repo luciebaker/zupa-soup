@@ -1,0 +1,20 @@
+.btn-bordered-red {
+    text-transform: uppercase;
+    background:$mainColor;
+    border:2px solid $secondaryColor;
+    border-radius: 0;
+    padding: .5rem 2rem;
+  }
+    
+  .btn-bordered-red:hover {
+    background: $secondaryColor;
+  }
+    
+  .btn-text {
+    color: $secondaryColor;
+    font-size: 1.2rem;
+  }
+  
+  .btn-text:hover {
+    color: $mainColor;
+  }

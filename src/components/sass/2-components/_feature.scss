@@ -1,0 +1,22 @@
+.feature-container {
+    background-color: $mainColor;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    }
+
+.col-4 {
+    padding: 10px 20px;
+    }
+
+.feature-container h1 {
+    color: $secondaryColor;
+}
+
+.feature-container p {
+    color: $secondaryColor;
+}
+
+.col-4-center {
+    border-right: solid 1px $lightColor;
+    border-left: solid 1px $lightColor;
+    }

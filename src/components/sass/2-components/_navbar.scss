@@ -1,0 +1,27 @@
+.navbar-logo {
+    max-width: 140px !important;
+    padding-top: 15px;
+    }
+
+
+
+.navbar {
+    padding: 0.5rem 4rem;
+    background-color: $mainColor;
+    height: 65px;
+    }
+
+.navbar-light .navbar-nav .nav-link {
+    color: $secondaryColor;
+    font-family: 'Cabin';
+    padding: 8px 18px;
+    }
+
+    @media (max-width: 768px) {
+        .navbar-logo {
+            padding-top: 0;
+        }
+        .navbar {
+            height: 85px;
+        }
+    }

@@ -1,20 +1,26 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Navbar from "../components/global/Navbar"
+import Footer from "../components/global/footer"
+import Hero from "../components/homepage/hero"
+import Intro from "../components/homepage/intro"
+import Feature from "../components/homepage/feature"
+import Easy from "../components/homepage/easy"
+import Menu from "../components/homepage/menu"
+import Value from "../components/homepage/value"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Navbar />
+    <Hero />
+    <Intro />
+    <Feature />
+    <Easy />
+    <Menu />
+    <Value />
+    <Footer />
   </Layout>
 )
 
