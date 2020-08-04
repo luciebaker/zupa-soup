@@ -37,7 +37,7 @@ export default class footer extends Component {
             </div>
 
             <div className="container-fluid copyright-container">
-            <p class="text-center">&copy; {new Date().getFullYear().toString()} ZU'PA | A concept website by <a href="https://lbmedia.netlify.com/">LB Media</a></p>
+            <p class="text-center">&copy; {new Date().getFullYear().toString()} Alex Calaway | Web Design by <a href="https://lbmedia.netlify.com/">LB Media</a></p>
             </div>
             </section>
         )
