@@ -6,6 +6,10 @@
     background-color: $tertiaryColor;
 }
 
+.hero-bg-light {
+    background-color: $lightColor;
+}
+
 .hero-img {
     max-height: 70vh;
 }
@@ -17,4 +21,19 @@
 
 .home-header-title {
     margin-top: 90px;
+}
+
+.hero-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hero-text-col {
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+.image-col {
+    padding-left: 50px;
+    padding-right: 0px;
 }

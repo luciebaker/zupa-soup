@@ -18,6 +18,13 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://alexcalaway.us17.list-manage.com/subscribe/post?u=7cae720d642b36b14e1b3d0ad&amp;id=3d5b666657',
+        timeout: 3500,
+      },
+    },
+    {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [

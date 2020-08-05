@@ -1,0 +1,45 @@
+.news {
+    padding: 50px auto;
+}
+
+.letter {
+    margin: 0 14%;
+}
+
+.letter h4 {
+    font-size: 4rem;
+}
+
+.form {
+    position: relative;
+    align-self: center;
+}
+
+input{
+    font-size: 16px;
+}
+
+/* UTILITIES */
+
+.btn_submit {
+    padding: 9px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn_send {
+    text-transform: uppercase;
+    background:$mainColor;
+    border-radius: 0;
+    padding: .5rem 2rem;
+    z-index: 1;
+    position: absolute;
+}
+
+.subscribe-email {
+    border: 1px solid #000;
+}
+

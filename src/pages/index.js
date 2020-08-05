@@ -8,9 +8,8 @@ import Intro from "../components/homepage/intro"
 import CfBook1 from "../components/homepage/cfbook1"
 import CfBook2 from "../components/homepage/cfbook2"
 import CfBook3 from "../components/homepage/cfbook3"
-import DDintro from "../components/homepage/ddintro"
 import DDbook1 from "../components/homepage/ddbook1"
-import Value from "../components/homepage/value"
+import Newsletter from "../components/homepage/newsletter"
 
 const IndexPage = () => (
   <Layout>
@@ -21,9 +20,9 @@ const IndexPage = () => (
     <CfBook1 />
     <CfBook2 />
     <CfBook3 />
-    <DDintro />
+    <Newsletter />
     <DDbook1 />
-    <Value />
+    <Newsletter />
     <Footer />
   </Layout>
 )
