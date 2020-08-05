@@ -8,7 +8,7 @@ const DDbook1 = () => {
         <div className="row">
         <div className="col-12 text-center">
         <h1>Desire & Destiny Serie</h1>
-        <p>Destiny happens in mysterious ways. Guided by our desires, of course, but that’s what life is about.</p>
+        <p className="ddp-alt">Destiny happens in mysterious ways. Guided by our desires, of course, but that’s what life is about.</p>
         </div>
         </div>
         </div>

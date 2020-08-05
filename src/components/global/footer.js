@@ -16,17 +16,17 @@ export default class footer extends Component {
 
             <div id="contact" className="col-md-6">
             <h2>Contact Alex</h2>
-            <form>
+            <form action="https://formspree.io/xlepzzke" method="POST" >
             <div className="form-group">
             <input type="text" className="form-control" name="name" id="name" placeholder="Enter Your Name Here"></input>
             </div>
             <div className="form-group">
-            <input type="text" className="form-control" name="email" id="email" placeholder="Enter Your Email Here"></input>
+            <input type="email" className="form-control" name="_replyto" id="email" placeholder="Enter Your Email Here"></input>
             </div>
             <div className="form-group">
             <textarea name="description" id="description" className="form-control" rows="3" placeholder="Enter your Message here"></textarea>
             </div>
-            <button type="submit" aria-label="submit your message" className="btn btn-bordered-red btn-text mt-1">Submit</button>
+            <button type="submit" value="Send" aria-label="submit your message" className="btn btn-bordered-red btn-text mt-1">Submit</button>
             </form>
             </div>
             </div>

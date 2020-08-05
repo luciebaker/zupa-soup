@@ -7,7 +7,7 @@ class Newsletter extends React.Component {
 
         this.state = {
             email: '',
-            message: 'Subscribe to my Newsletter'
+            message: 'Subscribe to my Newsletter and never miss out on a new release!'
         }
     }
 
@@ -17,7 +17,7 @@ class Newsletter extends React.Component {
 
 handleSubmit = e => {
     e.preventDefault();
-    this.setState({message: 'Thank you for subscribing to the newsletter'})
+    this.setState({message: 'Success! You are on the list.'})
     addToMailchimp(this.state.email) // listFields are optional if you are only capturing the email address.
     .then(data => {
       // I recommend setting data to React state
@@ -36,9 +36,9 @@ handleSubmit = e => {
         return (
             <>
                 <div className="news hero-bg-light ">
-                <div className="letter">
+                <div className="letter text-center">
                 <h2>{this.state.message}</h2>
-                <p>Get insider scoops and never miss out on a new release!</p>
+                <p>Simply enter your email and you'll get all the good stuff ... including insider scoops on all Caribean Fantasy crew !</p>
                 <div className="form">
                     <form className="subscribe" onSubmit={this.handleSubmit}>
                     <input type="email" value={this.state.email} onChange={this.changeEmailHandler} name="EMAIL" id="acn-email" className="subscribe-email" placeholder="Enter your email" required />
