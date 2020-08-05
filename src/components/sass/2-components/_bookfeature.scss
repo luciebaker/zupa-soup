@@ -16,7 +16,8 @@
     color: $secondaryColor;
 }
 
-.col-4-center {
-    border-right: solid 1px $lightColor;
-    border-left: solid 1px $lightColor;
-    }
+.feature-image {
+    max-width: 500px;
+}
+
+

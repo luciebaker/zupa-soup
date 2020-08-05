@@ -1,24 +1,18 @@
 .intro-container {
-    background-color: $secondaryColor;
+    background-color: $lightColor;
     margin-top: -5px;
+    text-align: center;
     }
 
 .intro-container h1 {
-    color: #fff;
-    }
+    padding-top: 20px;
+    text-align: center; 
+}
+
 
 .intro-container p {
-    color: #fff;
     padding-right: 10px;
+    text-align: center;
     }
 
-.intro-logo {
-    display: block;
-    margin: 0 auto;
-    padding-top: 30px;
-    }
 
-.intro-circle {
-    display: block;
-    margin: 0 auto;
-}

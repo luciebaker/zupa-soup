@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Zupa Soup`,
-    description: `The art of soup making delivered to your door`,
+    title: `Alex Calaway`,
+    description: `Thinker. Writer. Author.`,
     author: `@lucieb`,
   },
   plugins: [
@@ -22,7 +22,10 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Righteous`,
+            family: `Anton`,
+          },
+          {
+            family: `Cookie`,
           },
           {
             family: `Cabin`,
@@ -40,7 +43,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/zupa-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/alex-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

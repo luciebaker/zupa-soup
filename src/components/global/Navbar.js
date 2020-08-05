@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "gatsby";
-import logo from '../../images/zupa-logo-nav.png'
+import logo from '../../images/alexcalawaylogonav.png'
 
 
 export default class Navbar extends Component {
@@ -10,23 +10,23 @@ export default class Navbar extends Component {
         links: [
             {
                 id: 1,
-                path: '/#intro',
-                text: 'About'
+                path: '/',
+                text: 'Home'
                 },
             {
                 id: 2,
-                path: '/#menu',
-                text: 'Menu'
+                path: '/#contact',
+                text: 'About Alex'
                 },
             {
                 id: 3,
-                path: '/#contact',
-                text: 'Contact'
+                path: '/#intro',
+                text: 'Books'
                 },
             {
                 id: 4,
-                path: '/',
-                text: 'Order now'
+                path: '/#contact',
+                text: 'Contact'
                 },   
         ]
     }
@@ -47,7 +47,7 @@ export default class Navbar extends Component {
         return (
             <nav className="navbar navbar-expand-md navbar-light fixed-top shrink">
             <Link to='/' className="navbar-brand">
-            <img className="navbar-logo" src={logo} alt="Zupa Logo"/>
+            <img className="navbar-logo" src={logo} alt="Alex Calaway"/>
             </Link>
             <button className="navbar-toggler" type="button" onClick={this.navbarHandler}>
             <span className="navbar-toggler-icon" />

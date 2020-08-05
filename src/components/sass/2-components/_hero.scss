@@ -2,6 +2,19 @@
     padding: 0;
 }
 
+.hero-bg {
+    background-color: $tertiaryColor;
+}
+
 .hero-img {
-    max-height: 80vh;
+    max-height: 70vh;
+}
+
+.home-header-image {
+    max-width: 800px;
+    margin-top: 40px;
+}
+
+.home-header-title {
+    margin-top: 90px;
 }

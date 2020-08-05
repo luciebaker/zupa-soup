@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: $mainColor;
+    background-color: $tertiaryColor;
     padding-top: 25px;
     padding-bottom: 15px;
     }
@@ -12,15 +12,15 @@
     }
 
 .footer-container p {
-    color: #fff;
+    color: #000;
 }
 
 .footer-logo {
-    width: 160px;
+    width: 300px;
 }
 
 .copyright-container {
-    background-color: $secondaryColor;
+    background-color: $verydarkColor;
     }
 
 .copyright-container p {

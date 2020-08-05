@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../../images/zupa-logo-footer.png'
+import logo from '../../images/alexcalawaylogonav.png'
 
 export default class footer extends Component {
     render() {
@@ -10,15 +10,12 @@ export default class footer extends Component {
             <div className="row">
             
             <div className="col-md-6">
-            <img className="footer-logo" src={logo} alt="Zupa Logo"/>
-            <h1>The Art of Soup</h1>
-            <h2>Delivered to your door!</h2>
-            <p>Free delivery in Manhattan for orders $18 and above. Delivered within 30 minutes in downtown Manhattan only. Delivery to other areas will take longer.</p>
-            <p>Open everyday 11am-4pm</p>
+            <img className="footer-logo" src={logo} alt="Alex Calaway"/>
+            <p>Alex Calaway is a thinker, traveler, photographer, writer, and contemporary romance author. She writes about love in various locations around the world. Her first book series takes place in the Caribbean islands, a place where she lived for a few months, although she never got up to the sexy steamy adventures, the characters in her novels enjoy. Her female characters are sweet and sexy. Her male characters, tall, dark and handsome, often alphas, not always sweet but always passionate. Her writing is steamy and erotic, with a touch of humor and always enough heat to keep things interesting.</p>
             </div>
 
             <div id="contact" className="col-md-6">
-            <h2>Contact Us</h2>
+            <h2>Contact Alex</h2>
             <form>
             <div className="form-group">
             <input type="text" className="form-control" name="name" id="name" placeholder="Enter Your Name Here"></input>

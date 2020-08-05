@@ -1,5 +1,5 @@
 .navbar-logo {
-    max-width: 140px !important;
+    max-width: 300px !important;
     padding-top: 15px;
     }
 
@@ -7,12 +7,12 @@
 
 .navbar {
     padding: 0.5rem 4rem;
-    background-color: $mainColor;
+    background-color: $lightColor;
     height: 65px;
     }
 
 .navbar-light .navbar-nav .nav-link {
-    color: $secondaryColor;
+    color: $mainColor;
     font-family: 'Cabin';
     padding: 8px 18px;
     }

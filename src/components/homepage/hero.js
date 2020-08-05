@@ -8,7 +8,7 @@ export default function hero() {
         <StaticQuery
         query={graphql `
             {
-                mainImage: file(relativePath: {eq: "soup.png"}) {
+                mainImage: file(relativePath: {eq: "flirtationhero.png"}) {
                     childImageSharp {
                         fluid {
                             ...GatsbyImageSharpFluid
